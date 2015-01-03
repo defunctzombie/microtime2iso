@@ -1,0 +1,28 @@
+{
+  "name": "microtime2iso",
+  "version": "1.0.0",
+  "description": "convert decimal time values to iso8601",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --ui bdd --reporter spec -- test/convert.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/defunctzombie/microtime2iso.git"
+  },
+  "keywords": [
+    "microtime",
+    "iso8601",
+    "iso",
+    "time"
+  ],
+  "author": "Roman Shtylman <shtylman@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/defunctzombie/microtime2iso/issues"
+  },
+  "homepage": "https://github.com/defunctzombie/microtime2iso",
+  "devDependencies": {
+    "mocha": "2.1.0"
+  }
+}
