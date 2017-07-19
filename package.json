@@ -1,6 +1,6 @@
 {
   "name": "microtime2iso",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "convert decimal time values to iso8601",
   "main": "index.js",
   "scripts": {
