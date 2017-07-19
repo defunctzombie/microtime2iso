@@ -15,7 +15,7 @@ module.exports = function micro_to_iso(str) {
     milliseconds = Math.floor(milliseconds * 1000);
 
     var date = new Date(milliseconds);
-    date_str = date.toISOString();
+    var date_str = date.toISOString();
 
     if (microseconds) {
         date_str = date_str.replace('Z', microseconds + 'Z');
